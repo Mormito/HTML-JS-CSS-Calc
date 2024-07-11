@@ -1,12 +1,15 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(90deg, rgb(178, 255, 201) 0%, rgb(15, 231, 98) 35%, rgba(0,212,255,1) 100%);
+
+    margin: 0;
+    padding: 0;
 }
 
 
 .divCSS{
-    width: 400px; 
-    height: 300px;
+    width: 410px; 
+    height: 250px;
     margin: 0 auto;
 
     border: 1px solid rgb(255, 255, 255);
@@ -15,24 +18,24 @@ body{
     
     justify-content: center;
     align-items: center;
+    text-align: center;
     display: block;
+
+    overflow: hidden;
 
     color: white;
 }
 
-.divCSS p{
-    margin-top: 5px;
-    margin-left: 20px;
+#resultado{
 
-    width: 200px;
 }
 
 .divCSS h1{
-    margin: 20px
+
 }
 
 .divCSS input{
-    margin: 20px;
+    margin: 10px;
     height: 20px;
     border: 1px solid black;
     border-radius: 5px;
